@@ -1,0 +1,17 @@
+.Verif {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 4rem;
+  position: relative;
+}
+
+.homeVerifBtn {
+  margin-top: 1.5rem;
+}
+
+.verifRight {
+  margin-top: 1.5rem;
+}

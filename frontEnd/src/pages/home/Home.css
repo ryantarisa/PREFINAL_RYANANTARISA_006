@@ -1,0 +1,14 @@
+.Home {
+  position: relative;
+  display: grid;
+  grid-template-columns: 20rem auto 20rem;
+  gap: 1rem;
+  color: white;
+}
+
+.myProfileBtn {
+  font-family: inherit;
+  font-size: inherit;
+  border-radius: 10px;
+  padding: 10px;
+}

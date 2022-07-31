@@ -1,0 +1,54 @@
+.InfoCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  background-color: var(--cardColor);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.infoHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infoHead > div :hover {
+  cursor: pointer;
+}
+
+.logoutBtn {
+  background-color: rgba(255, 166, 0, 0);
+  border-width: 1px;
+  border-style: groove;
+  border-color: orange;
+  color: white;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+
+.logoutBtn:hover {
+  font-weight: bold;
+  background-color: rgb(230, 52, 52);
+  border-width: 1px;
+  border-color: rgba(230, 52, 52, 0);
+  color: white;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+
+.infoHead > h3 {
+  color: orange;
+}
+
+.infoData {
+  font-weight: lighter;
+  margin-left: 8px;
+  color: orange;
+}

@@ -1,0 +1,47 @@
+:root {
+  --yellow: #f5c32c;
+  --orange: #fca61f;
+  --black: #242d49;
+  --gray: rgba(36, 45, 73, 0.65);
+  --profileShadow: 0px 4px 17px 2px rgba(0, 0, 0, 0.25);
+  --hrColor: #cfcdcd;
+  --cardColor: rgba(24, 23, 23, 0.364);
+  --buttonBg: linear-gradient(98.63deg, #f9a225 0%, #f95f35 100%);
+  --inputColor: rgba(72, 72, 72, 0.522);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: none;
+  padding: 7px;
+  font-weight: bold;
+  background-color: orange;
+  border-radius: 0.3rem;
+  transition: all 100ms ease-out;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(214, 139, 0);
+}
+
+.button:disabled {
+  background: #cfcdcd;
+  pointer-events: none;
+}
+
+.App {
+  overflow: hidden;
+  color: var(--black);
+  background-color: #292930;
+  padding: 1rem 1rem;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

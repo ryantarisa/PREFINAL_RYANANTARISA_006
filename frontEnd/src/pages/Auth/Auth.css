@@ -1,0 +1,131 @@
+.Auth {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 4rem;
+  position: relative;
+}
+
+.Auth > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.authLeft {
+  gap: 1.5rem;
+}
+
+.authLeft > img {
+  width: 6rem;
+  height: 6rem;
+}
+
+.Webname {
+  display: flex;
+  flex-direction: column;
+}
+
+.Webname > div {
+  font-size: 2rem;
+  font-weight: bold;
+  color: orange;
+}
+.Webname > span {
+  margin: 0;
+  font-weight: lighter;
+}
+
+.infoForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.allPass {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoInput {
+  display: flex;
+  border: none;
+  outline: none;
+  background-color: var(--inputColor);
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  padding: 20px;
+  flex: 1;
+}
+
+.infoInputPassword {
+  display: flex;
+  width: 23.3rem;
+  border: none;
+  outline: none;
+  background-color: var(--inputColor);
+  border-radius: 8px 0px 0px 8px;
+  color: white;
+  font-size: 1rem;
+  padding: 20px;
+  flex: 1;
+}
+
+.infoForm > div {
+  display: flex;
+  gap: 1rem;
+  height: 2rem;
+  width: 90%;
+}
+
+.passVision {
+  display: flex;
+  justify-content: space-between;
+}
+
+.regButton {
+  padding: 10px 35px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.passInput {
+  display: flex;
+  justify-content: space-between;
+}
+
+.p-icon {
+  background-color: var(--inputColor);
+  border-radius: 0px 8px 8px 0px;
+}
+
+.p-icon > img {
+  margin-right: 25px;
+}
+.authForm {
+  background-color: var(--cardColor);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.authForm > div {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.error {
+  position: absolute;
+
+  right: 30rem;
+  border-radius: 3px;
+  background-color: #fdcac4;
+  color: #ed6160;
+  padding: 1.2rem;
+  display: none;
+}

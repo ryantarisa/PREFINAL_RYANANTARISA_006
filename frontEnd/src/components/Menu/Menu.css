@@ -1,0 +1,56 @@
+.fullLogo {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.circleLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 30px;
+  max-height: 30px;
+  margin-right: 10px;
+}
+
+.textLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.navIcons {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navIcons > img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.notif {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.menuLine {
+  opacity: 0.2;
+  border-radius: 30%;
+}
+
+.notification {
+  display: flex;
+}
+
+.notification > img {
+  width: 1.5rem;
+}
+
+.redNoti {
+  width: 1rem !important;
+  height: 1rem !important;
+}
